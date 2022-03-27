@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+}
+
+#head {
+    text-align: center;
+    font-size: xx-large;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 20;
+    font-stretch: expanded;
+    padding: 0;
+}
+
+#cal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-column-span: 5px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.clac {
+    border-left: 15px;
+    border-style: solid;
+    box-shadow: 10px;
+}
+
+#in {
+    padding-top: 5px;
+    color: white;
+    border-radius: 20px;
+    text-align: justify;
+    align-content: center
+}
+
+#submit {
+    text-align: center;
+    align-self: center;
+}
+
+h1 {
+    padding-bottom: 5px;
+}
+
+label {
+    padding-left: 4em;
+}
+
+select {
+    box-sizing: border-box;
+    block-size: 2em;
+    inline-size: 15em;
+}
+
+#butt {
+    margin-block-start: 20px;
+    padding: 10px;
+}
+
+#submit {
+    width: 100px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#button {
+    block-size: 2em;
+    margin: 12px;
+    padding-left: 20px;
+}
+
+#bottom {
+    border-radius: 20px;
+    margin: 2em;
+}
+
+#head1 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgba(190, 23, 23, 0.986);
+    color: aliceblue;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#reset {
+    width: 100px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#top {
+    border-radius: 2px;
+    background-color: maroon;
+    background-image: var(--bs-gradient);
+    color: aliceblue;
+    border-radius: 15px;
+    margin: 2em;
+}
+
+.tile {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 20px;
+    background-color: black;
+    background-image: var(--bs-gradient);
+}
+
+#cal {
+    background-color: navy;
+    background-image: var(--bs-gradient);
+}
+
+.tile1 {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 20px;
+    background-color: rgb(200, 206, 195);
+    background-image: var(--bs-gradient);
+}
+
+#footer {
+    background-color: rgba(190, 23, 23, 0.986);
+    border-radius: 0px 0px 15px 15px;
+    min-height: 50px;
+}
